@@ -20,14 +20,14 @@ export default function AwardApp({ Component, pageProps }) {
   const NavItems = [
     {
       link: true,
-      name: "Home",
+      name: "Inicio",
       icon: "fal fa-home",
       activeIcon: "fa fa-home",
       href: "/",
     },
     {
       link: true,
-      name: "Commands",
+      name: "Comandos",
       icon: "fa fa-list-alt",
       activeIcon: "fa fa-list-alt",
       href: "/commands",
@@ -41,7 +41,7 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Add Bot",
+      name: "Adicionar bot",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
       href: "https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=bot%20applications.commands",
@@ -55,7 +55,7 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Partners",
+      name: "Parceiros",
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
